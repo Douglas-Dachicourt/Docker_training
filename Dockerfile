@@ -4,3 +4,5 @@ FROM alpine:3.16.3
 RUN apk add --no-cache curl
 #cmd to copy a folder's file text to a destination
 COPY config.txt /app/config.txt
+#cmd to print out a message to the terminal
+CMD ["echo", "Hello World!"]
